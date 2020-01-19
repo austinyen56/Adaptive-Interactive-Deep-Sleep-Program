@@ -305,7 +305,7 @@ def tick():
     # could use >200 ms, but display gets jerky
     clock.after(200, tick)
 
-count = 59
+count = 0
 def counter():
     global count
     while count < (wt - ct):
