@@ -7,10 +7,6 @@ AUSTIN YEN
 TED IKEHARA
 CARL VINCENT CUYOS
 """
-
-
-
-
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 import pafy
@@ -30,9 +26,9 @@ def addSong(): #Experimental as of rn
         v = pafy.new(song_url)
         print(v.title)
         s = v.getbestaudio()
-        filename = s.download(filepath=r"C:\Users\Austin\Desktop\Wake Up Carl\venv\download")
+        s.download(filepath=r"C:\Users\Austin\Desktop\Wake Up Carl\venv\download")
         print("Size is %s" % s.get_filesize())
-        mp4_dir = print('Successfully downloaded {}.webm'.format(v.title))
+        print('Successfully downloaded {}.webm'.format(v.title))
         destination = input('Where do you wanna move this file to?')
 
         orig = r'C:\Users\Austin\Desktop\Wake Up Carl\venv\download'
@@ -309,7 +305,7 @@ def tick():
     # could use >200 ms, but display gets jerky
     clock.after(200, tick)
 
-count = 0
+count = 59
 def counter():
     global count
     while count < (wt - ct):
@@ -374,7 +370,7 @@ def buttonPress(event):
 
 def buttonRelease(event):
     global running
-    print("")
+    print("幹你娘趕快起來啦")
     running = False
 
 button = Button(root3, text ="")
