@@ -1,8 +1,8 @@
-#Adaptive Interactive Deep Sleep Program
+# Adaptive Interactive Deep Sleep Program
 
 Your fellow roomate is having trouble waking up early in the morning. He usually oversleeps and has trouble waking up in time. It is known that oversleeping can cause many medical problems like diabetes, heart disease, and increased risk of death. In order to prevent this from happening, the Adaptive Interactive Deep Sleep Program is made.
 
-#Requirements
+# Requirements
 
 This project is made in Python and these libraries are required in order for it to work:
 
